@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+body {
+  @apply bg-no-repeat bg-cover bg-center min-h-screen;
+  background-color: bisque;
+  color: #ffff;
+}
+
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear {
+  display: none;
+}
