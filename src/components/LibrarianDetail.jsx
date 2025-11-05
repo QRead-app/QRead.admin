@@ -75,7 +75,7 @@ export default function LibrarianDetail() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          redirect: 'http://localhost:5173/ResetPassword',
+          redirect: 'http://13.229.232.223:5173/ResetPassword',
           email: librarian.email,
         }),
         mode: 'cors',

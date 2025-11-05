@@ -17,7 +17,7 @@ export default function EnterEmail() {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        redirect: 'http://localhost:5173/ResetPassword',
+        redirect: 'http://13.229.232.223:5174/ResetPassword',
         email: email,
       }),
       mode: 'cors',
