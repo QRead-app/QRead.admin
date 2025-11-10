@@ -76,7 +76,7 @@ export default function LibrarianInfo() {
       await res.json();
 
       //Should go to Aziz Login part
-      navigate('/librarian-login', { replace: true });
+      window.location.href = 'https://13.229.232.223:5173/';
     } catch (err) {
       console.error(err);
       alert('Failed to save. Please try again.');
